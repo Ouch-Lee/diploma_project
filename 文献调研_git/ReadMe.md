@@ -16,3 +16,4 @@ this document is the guide for these papers
 
 * 6-手术机器人综述；介绍了2018年前多款手术机器人，全面的评价了其优缺点，推荐
 
+* 7-似乎是操作端的设计，未看
