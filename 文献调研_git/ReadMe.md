@@ -22,6 +22,8 @@ this document is the guide for these papers
 
 * 9-微创主从手术机器人设计-实现了主从操作中不同运动学下的直观运动控制和运动缩放控制，以解决主从机械手的手眼协调失调、运动学差异和工作空间不匹配问题。
 
+* [又用但是要钱的文章](https://www.worldscientific.com/doi/abs/10.1142/S0219843606000904)，可以试着看看引用是否用得上
+
 
 
 
