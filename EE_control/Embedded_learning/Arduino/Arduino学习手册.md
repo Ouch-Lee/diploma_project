@@ -10,7 +10,7 @@
 mega有6个中断口，理论上我不要Z的话，能检测6个编码器的信号
 ```
 
-
+[官网说明](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/)
 
 
 

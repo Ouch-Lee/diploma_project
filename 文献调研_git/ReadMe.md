@@ -26,6 +26,10 @@ this document is the guide for these papers
 
 * [一本研究微创机器人主从映射的书](https://kreader.cnki.net/Kreader/CatalogViewPage.aspx?dbCode=cdmd&filename=1013004785.nh&tablename=CDFD1214&compose=&first=1&uid=WEEvREcwSlJHSldSdmVpaVVVQVRCNWxoSUd6cEJrMW9NdjJ3dE1jamk5VT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!)
 
+* 12-一篇关于连续体机器人模型建立的文章
+
+* 
+
 
 
 
