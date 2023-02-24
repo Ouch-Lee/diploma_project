@@ -30,7 +30,7 @@ $$
 $$
 (s,k,ϕ)=f_{2a}(l)
 $$
-整体模型梳理一下就是：
+ [12-Kinematics for Multisection Continuum Robots.md](12-Kinematics for Multisection Continuum Robots.md) 整体模型梳理一下就是：
 $$
 {\underline {x}} ^{\rm D-H} \underline{\theta}, \underline{d}\leftarrow ^{{\underline f}_{1}}\leftarrow s, \kappa, \phi\leftarrow ^{{\underline f}_{2}} \leftarrow\underline{l}
 $$
