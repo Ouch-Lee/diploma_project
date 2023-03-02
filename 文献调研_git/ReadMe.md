@@ -28,7 +28,7 @@ this document is the guide for these papers
 
 * 12-一篇关于连续体机器人模型建立的文章
 
-* 
+* 13-连续体机器人建模综述
 
 
 
