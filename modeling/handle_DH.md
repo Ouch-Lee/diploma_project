@@ -264,6 +264,16 @@ _____
 
 ____
 
+由于上述方法采用的几何法，公式中多处出现反三角函数，而反三角函数无法求解出负角度，因此还需要人为的添加正负变换，通过总结，正负号满足以下结果：
+
+
+
+| $\theta_4 < 0$ | $\theta_4 > 0$ |
+| ---- | -------------- |
+| $\begin{cases} \phi = \phi \\ \Delta x = \Delta x  \end{cases}$ | $\begin{cases} \phi = -\phi \\ \Delta x = -\Delta x  \end{cases}$ |
+
+
+
 
 
 由此可以得到主端驱动空间 $AS_{master} = [d_1, \theta_2,\theta_3,\theta_4,\theta_5]^T$ 到从端构型空间 $CS_{slave} = [D_1, ks_1,ks_2, \phi_2, \Theta_5]^T $之间的映射关系：
