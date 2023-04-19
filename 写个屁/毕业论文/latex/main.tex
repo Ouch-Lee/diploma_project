@@ -1,0 +1,88 @@
+% !Mode:: "TeX:UTF-8"
+% !TEX program  = xelatex
+% !BIB program  = biber
+\documentclass[AutoFakeBold,AutoFakeSlant,language=chinese,degree=bachelor,zihao=-4]{sustechthesis}
+% 1. AutoFakeBold 与 AutoFakeSlant 为伪粗与伪斜，如果本机上有相应粗体与斜体字体，请使用 xeCJK 宏包进行设置，例如：
+%   \setCJKmainfont[
+%     UprightFont = * Light,
+%     BoldFont = * Bold,
+%     ItalicFont = Kaiti SC,
+%     BoldItalicFont = Kaiti SC Bold,
+%   ]{Songti SC}
+%
+% 2. language=chinese 基于为 ctexart 文类提供的中文排版方案修改，如果使用英文进行论文创作，请使用 language=english 选项。
+%
+% 3. degree=bachelor 为 sustechthesis 文类提供的本科生毕业论文模板，其他可选项为 master 与 doctor，但是均未实现，如果您对此有兴趣，欢迎 PR。
+%
+% 4. sustechthesis.cls 文类主要参考自去年完成使命的 sustechthesis.tex，在这一年的时间，作者的 TeX 风格与常用宏包发生许多变化，因为之前的思想为仅提供必要的格式修改相关代码，所以转换为文类形式所进行的修改较少，而近期的风格与常用宏包均体现在以下的例子文件中。
+%
+% 5. 示例文件均放置于相应目录的 examples 文件夹下，构建自己论文时可暂时保留，用以检索接口与使用方法。
+%
+% 6. 英文目录需要居中可以使用：\renewcommand{\contentsname}{\centerline{Content}}
+%
+% 7. LaTeX 中公式编号括号样式及章节关联的方法：https://liam.page/2013/08/23/LaTeX-Formula-Number/
+
+\input{config/preamble.tex} % 导言区
+\input{config/info.tex} % 论文信息
+\begin{document}
+
+\中文标题页 % \英文标题页
+\中文诚信承诺书 % \英文诚信承诺书
+\摘要标题
+\input{sections/0-摘要.tex} % 论文摘要
+
+\目录\clearpage % 目录及换页
+
+\begin{spacing}{1.5}
+\input{sections/1-绪论.tex}\clearpage
+\input{sections/2-机械设计.tex}\clearpage
+\input{sections/3-电控系统.tex}\clearpage
+\input{sections/4-建模和控制.tex}\clearpage
+\input{sections/5-实验.tex}\clearpage
+\input{sections/结论.tex}\clearpage
+\end{spacing}
+\参考文献
+  \def\bibfont{\fontsize{10.5}{18}\selectfont}
+  \printbibliography[heading=none]\clearpage
+\附录
+  \input{sections/appendix.tex}\clearpage
+\致谢
+  \input{sections/thanks.tex}\clearpage
+  
+\在学期间完成的相关学术成果
+
+\section*{发表的学术论文}
+
+\begin{achievements}
+
+    \item \textbf{Yuntian Zhao}, Shiyuan Lin, Zheng Zhu and Zhenzhong Jia. A Bipedal Wheel-Legged Robot with Improved Balancing and Disturbance Rejection Capability Assisted by Electrical-Jets. IEEE International Conference on Advanced Robotics and Mechatronics (ARM), 2022. 已接收.
+    
+    \item Shipeng Lv, \textbf{Yuntian Zhao}, Zhenyang Chen, Chengyuan Gao, Longteng Hu and Zhenzhong Jia. Improved Rover Mobility Over Loose Deformable Slopes through Active Control of Body-Rotating Mechanism. 2021 27th International Conference on Mechatronics and Machine Vision in Practice (M2VIP), 2021. 已发表.
+    
+    \item Shiyuan Lin, \textbf{Yuntian Zhao}, Zheng Zhu and Zhenzhong Jia. A Quasi-Direct Drive Hand for Contact-rich Manipulations. IEEE International Conference on Advanced Robotics and Mechatronics (ARM), 2022. 已接收.
+    
+    \item Chengyuan Gao, Zhuolun Li, \textbf{Yuntian Zhao}, Zheng Zhu and Zhenzhong Jia. Design of an scaled-car platform for extreme driving conditions. IEEE International Conference on Advanced Robotics and Mechatronics (ARM), 2022. 已接收.
+    
+\end{achievements}
+
+\section*{大学生创新创业项目}
+
+\begin{achievements}
+  \item 用于斜坡攀爬穿越的变质心火星车的机理与实验研究，已结题，省级大学生创新创业项目，项目负责人.
+  \item 四轮独立驱动高频力矩控制小车平台，已结题，校级大学生创新创业项目，项目成员.
+\end{achievements}
+  
+ \section*{专利}
+
+\begin{achievements}
+  \item 一种基于QDD电机的轮腿机器人及其复合驱动平衡控制. 发明人：贾振中，\textbf{赵云天}，林世远，朱政. 申请中.
+\end{achievements}
+
+ \section*{学科竞赛}
+
+\begin{achievements}
+  \item 中国大学生电动方程式赛车（FSEC）2018 年参赛队员.
+  \item 2019 RoboMaster 机甲大师南部分区赛团体三等奖.
+\end{achievements}
+
+\end{document}
