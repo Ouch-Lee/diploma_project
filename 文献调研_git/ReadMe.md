@@ -30,6 +30,8 @@ this document is the guide for these papers
 
 * 13-连续体机器人建模综述
 
+* 14-讲的是使用一个360°的激光扫描装置用于内消化道3D建模
+
 
 
 

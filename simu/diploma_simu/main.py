@@ -14,7 +14,6 @@ if __name__ == '__main__':
     a = [0, 2]
     # a = np.random(5)
     print(100%3)
-    pyplot.
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

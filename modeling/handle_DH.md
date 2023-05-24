@@ -328,3 +328,22 @@ k(1) = \frac{(l_1 -  3l_2 + l_3 + l_4)\sqrt{(l_4 - l_2)^2 + (l_3 - l_1)^2})}{d(l
 l_1 + l_3 = l_2 + l_4 = 2l_0 \\
 \end{cases}
 $$
+
+
+
+$$
+^{i-1} _iT_d = \begin{bmatrix} 1 & 0 & 0 & 0 \\
+0 & cos(\beta_{dx}) & -sin(\beta_{dx}) & -l_{dt}sin(\beta_{dx}) \\
+0 & -sin(\beta_{dx}) & cos(\beta_{dx}) & l_{dt}cos(\beta_{dx}) \\
+ 0 & 0 & 0 &1
+\end{bmatrix}
+$$
+
+$$
+T_y = ^{i-1} _iT_d = \begin{bmatrix}
+cos(\beta_{sy}) &0 &  sin(\beta_{sy}) & l_{dt}sin(\beta_{sy}) \\
+ 0 & 1 & 0 & 0 \\
+-sin(\beta_{sy}) &0 &  cos(\beta_{sy}) & l_{dt}cos(\beta_{sy}) \\
+ 0 & 0 & 0 &1
+\end{bmatrix}
+$$

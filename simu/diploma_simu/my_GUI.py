@@ -13,7 +13,7 @@ class MY_GUI():
     def set_init_window(self):
         self.init_window_name.title("简易仿真界面")           #窗口名
         #self.init_window_name.geometry('320x160+10+10')                         #290 160为窗口大小，+10 +10 定义窗口弹出时的默认展示位置
-        self.init_window_name.geometry('1068x681+10+10')
+        self.init_window_name.geometry('720x540+10+10')
         self.init_window_name["bg"] = "pink"                                    #窗口背景色，其他背景色见：blog.csdn.net/chl0000/article/details/7657887
         #self.init_window_name.attributes("-alpha",0.9)                          #虚化，值越小虚化程度越高
         #标签
@@ -24,7 +24,7 @@ class MY_GUI():
         self.log_label = Label(self.init_window_name, text="日志")
         self.log_label.grid(row=12, column=0)
         #文本框
-        self.init_data_Text = Text(self.init_window_name, width=67, height=35)  #原始数据录入框
+        self.init_data_Text = Text(self.init_window_name, width=40, height=15)  #原始数据录入框
         self.init_data_Text.grid(row=1, column=0, rowspan=10, columnspan=10)
         self.result_data_Text = Text(self.init_window_name, width=70, height=49)  #处理结果展示
         self.result_data_Text.grid(row=1, column=12, rowspan=15, columnspan=10)

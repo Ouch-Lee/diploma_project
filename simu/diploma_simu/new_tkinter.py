@@ -21,7 +21,7 @@ Text = Text(root,width = 50,height=10)#测试文本框
 Text.place(x=0,y=30)
 
 #图像及画布
-fig = plt.figure(figsize=(10,4),dpi=100)#图像比例
+fig = plt.figure(figsize=(6,4),dpi=100)#图像比例
 f_plot =fig.add_subplot(111)#划分区域
 canvas_spice = FigureCanvasTkAgg(fig,root)
 canvas_spice.get_tk_widget().place(x=0,y=200)#放置位置
@@ -33,13 +33,13 @@ y = []
 plt.ion()
 
 # 创建循环
-for i in range(100):
-	x.append(i)	# 添加i到x轴的数据中
-	y.append(i**2)	# 添加i的平方到y轴的数据中
-	plt.clf()  # 清除之前画的图
-	plt.plot(x, y * np.array([-1]))  # 画出当前x列表和y列表中的值的图形
-	plt.pause(0.001)  # 暂停一段时间，不然画的太快会卡住显示不出来
-	plt.ioff()  # 关闭画图窗口
+# for i in range(100):
+# 	x.append(i)	# 添加i到x轴的数据中
+# 	y.append(i**2)	# 添加i的平方到y轴的数据中
+# 	plt.clf()  # 清除之前画的图
+# 	plt.plot(x, y * np.array([-1]))  # 画出当前x列表和y列表中的值的图形
+# 	plt.pause(0.001)  # 暂停一段时间，不然画的太快会卡住显示不出来
+# 	plt.ioff()  # 关闭画图窗口
 
 # button = Button(root,text='选择文件',bg='lightblue',width=10,command=get_xl)
 # button.place(x=400,y=1)

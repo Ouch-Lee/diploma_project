@@ -8,9 +8,20 @@ def print_hi(name):
     # 在下面的代码行中使用断点来调试脚本。
     print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。
 
+def list_add1(the_list):
+    num  = len(the_list)
+    for i in range(num):
+        the_list[i] = the_list[i] + 1
+
+    return the_list
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    # sr_yaw_id = [7, 9, 11, 13, 15, 17, 19]
+    # print(list_add1(sr_yaw_id))
+    angels = [0] * 5
+    print(angels)
+    print("0_0")
+    print(len(angels))
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
